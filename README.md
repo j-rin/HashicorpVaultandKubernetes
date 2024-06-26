@@ -32,6 +32,7 @@
           bound_service_account_names=vault-auth \
           bound_service_account_namespaces=default \
           policies=demo-policy \
+
 6.This annotation will trigger the webhook and the pod spec will change in runtime and add a init container and side-car container
 
    annotations:
