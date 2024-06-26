@@ -1,10 +1,11 @@
 # Vault-Kubernetes
 
 ## Steps
-
-### 1. Enable the Key-Value Engine
-
 ```sh
+
+1. Enable the Key-Value Engine
+
+
 vault secrets enable -version=2 -path="kv" kv
 
 2.Adding the secrets to the vault
