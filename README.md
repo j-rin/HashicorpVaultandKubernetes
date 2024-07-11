@@ -45,11 +45,10 @@ vault secrets enable -version=2 -path="kv" kv
       vault.hashicorp.com/role: 'webapp'
       vault.hashicorp.com/agent-inject-secret-config.txt:
   ```
-
-<img src="https://github.com/j-rin/Vault-Kubernetes/blob/main/Screenshot%20from%202024-06-28%2008-18-43.png" width="600" height="300">
-Secret Stored in a shared volume by all 3 containers
-
 <img src="https://github.com/j-rin/Vault-Kubernetes/blob/main/Screenshot%20from%202024-06-28%2008-19-01.png" width="600" height="300">
+Secret Stored in a shared volume by all 3 containers
+<img src="https://github.com/j-rin/Vault-Kubernetes/blob/main/Screenshot%20from%202024-06-28%2008-18-43.png" width="600" height="300">
+
 
 <img src="https://github.com/j-rin/Vault-Kubernetes/blob/main/Screenshot%20from%202024-06-28%2008-19-55.png" width="600" height="300">
 
