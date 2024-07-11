@@ -52,6 +52,9 @@ How the secret is fetched from vault server
 
 <img src="https://github.com/j-rin/Vault-Kubernetes/blob/main/Screenshot%20from%202024-06-28%2008-19-55.png" width="600" height="300">
 
+
+# SSL certs Auto renewal
+
 Where is the secret stored for the application to access it
 
 <img src="https://github.com/j-rin/Vault-Kubernetes/blob/main/Screenshot%20from%202024-06-28%2008-18-43.png" width="600" height="300">
