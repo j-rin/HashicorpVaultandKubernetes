@@ -17,7 +17,7 @@ vault secrets enable -version=2 -path="kv" kv
 3.Write the policy in the vault pod to read the secret 
   ```sh
   vault policy write demo-policy - <<EOH
-  path "demo-app/*" {
+  path "kv/data/dev/apps/service01/*" {
     capabilities = ["read"]
   }
   EOH
