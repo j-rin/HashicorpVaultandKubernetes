@@ -15,5 +15,5 @@ spec:
     # Add a single challenge solver, HTTP01 using nginx
     solvers:
     - http01:
-        ingress:
-          ingressClassName: nginx
+          ingress:
+            name: nginx
